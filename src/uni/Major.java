@@ -17,10 +17,11 @@ public class Major {
         this.majorId = majorID;
         majorID +=1;
         this.capacity = capacity;
+        majorList.add(this);
     }
 
 
-    public static Major findBYid(int ID) {
+    public static Major findByID(int ID) {
         for (Major major : majorList) {
             if (major.majorId == ID) {
                 return major;

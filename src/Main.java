@@ -1,9 +1,7 @@
 import Base.PersonClass;
-import uni.Major;
-
+import uni.*;
 
 public class Main {
     public static void main(String[] args) {
-
     }
 }
